@@ -1,0 +1,1 @@
+This is a school game library made for chromebooks

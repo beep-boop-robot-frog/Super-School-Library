@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super School Library | Home</title>
+</head>
+<body>
+    <center><h1><b>Home consoles</b></h1></center>
+    <hr>
+
+    <center><h2><b>NES</b></h2></center>
+    <hr>
+
+    <a href="games/nes/Super Mario Bros.html">
+        <button style="border-radius: 10px;"><img style="height: 270px; width: 187px; border-radius: 10px;" src="https://mario.wiki.gallery/images/6/6b/SMB_USA_box_art.jpg" alt="https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png"></button>
+    </a>
+    <a href="games/nes/Super Mario Bros 2.html">
+        <button style="border-radius: 10px;"><img style="height: 270px; width: 187px; border-radius: 10px;" src="https://mario.wiki.gallery/images/e/ea/SMB2_Boxart.png" alt="https://upload.wikimedia.org/wikipedia/en/7/78/Super_Mario_Bros._2_box_art.png"></button>
+    </a>
+    <a href="games/nes/Super Mario Bros 3.html">
+        <button style="border-radius: 10px;"><img style="height: 270px; width: 187px; border-radius: 10px;" src="https://mario.wiki.gallery/images/b/b9/Mario3rightbros.png" alt="https://upload.wikimedia.org/wikipedia/en/a/a5/Super_Mario_Bros._3_coverart.png"></button>
+    </a>
+
+    <center><h2><b>SNES</b></h2></center>
+    <hr>
+
+    <a href="games/snes/Super Mario World.html">
+        <button style="border-radius: 10px;"><img style="height: 270px; width: 370px; border-radius: 10px;" src="https://mario.wiki.gallery/images/d/da/Super_Mario_World_Box.png" alt="https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png"></button>
+    </a>
+    <a href="games/snes/Super Mario Kart.html">
+        <button style="border-radius: 10px;"><img style="height: 270px; width: 370px; border-radius: 10px;" src="https://mario.wiki.gallery/images/8/82/Super_Mario_Kart_NA_box_art.png" alt="https://upload.wikimedia.org/wikipedia/en/3/38/Supermariokart_box.JPG"></button>
+    </a>
+
+    <center><h2><b>Nintendo 64</b></h2></center>
+    <hr>
+
+    <a href="games/n64/Super Mario 64.html">
+        <button style="border-radius: 10px;"><img style="height: 270px; width: 370px; border-radius: 10px;" src="https://mario.wiki.gallery/images/3/3e/Super_Mario_64_Boxart.png" alt="https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png"></button>
+    </a>
+    
+    <center><h1><b>Handheld consoles</b></h1></center>
+    <hr>
+    
+    <center><h2><b>Game Boy</b></h2></center>
+    <hr>
+    <a href="games/gb/Super Mario Land.html">
+        <button style="border-radius: 10px;"><img style="height: 270px; width: 270px; border-radius: 10px;" src="https://mario.wiki.gallery/images/8/8b/SarasalandBoxArt.png" alt="https://upload.wikimedia.org/wikipedia/en/2/22/Super-mario-land-gameboy-boxart.png"></button>
+    </a>
+    <a href="games/gb/Super Mario Land 2.html">
+        <button style="border-radius: 10px;"><img style="height: 270px; width: 270px; border-radius: 10px;" src="https://mario.wiki.gallery/images/f/f7/Supermarioland2logo.jpg" alt="https://upload.wikimedia.org/wikipedia/en/0/0d/Super_Mario_Land_2_box_art.jpg"></button>
+    </a>
+
+    <div id="agreement-overlay">
+        <div id="agreement-box">
+            <center><h1>I agree I am allowed to play on this site at this time.</h1></center>
+            <center><h2>The creator is not at fault if you get in trouble.</h2></center>
+            <a href="home.html">
+                <center><button style="position: absolute; bottom: 25%;" id="agree-btn"><b>I agree</b></button></center>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("agree-btn").addEventListener("click", function() {
+            document.getElementById("agreement-overlay").style.display = "none";
+        });
+    </script>
+</body>
+</html>
