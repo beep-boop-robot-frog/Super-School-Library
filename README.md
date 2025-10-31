@@ -1,1 +1,1 @@
-This is a school game library made for chromebooks
+python average_thumbnails.py --max-videos 100 --channel "@Sourdayss"
